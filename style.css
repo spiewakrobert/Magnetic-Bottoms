@@ -22,7 +22,7 @@ body {
 .btn span {
   position: relative;
   display: inline-block;
-  background: blue;
+
   color: aliceblue;
   font-size: 1.2em;
   font-weight: 500;
@@ -32,4 +32,23 @@ body {
   margin: 35px;
   border-radius: 8px;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: transform 0.2s linear;
+}
+
+.color-01 span {
+  background: linear-gradient(90deg, #ff8080, #ff0000);
+}
+.color-02 span {
+  background: linear-gradient(90deg, #8080ff, #0000ff);
+}
+.color-03 span {
+  background: linear-gradient(90deg, #80ff80, #00cc00);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.8em;
+  font-weight: 800;
 }
